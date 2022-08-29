@@ -1,0 +1,16 @@
+h1{
+    color: #ff0000;
+}
+p{
+    color: #ff00ff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: overline;
+    text-align:left;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: blue;
+    width: 10px;
+}
