@@ -1,0 +1,39 @@
+body{
+    width: 612px;
+    height: 408px;
+    margin: 0px auto;
+}
+
+h1{
+    font-family: Tahoma;
+    font-size: 25px;
+
+}
+h3{
+    font-family: "Courier New";
+    font-size: 15px;
+    font-weight: bold;
+}
+span{
+    color: aliceblue;
+    background-color: red;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+h4{
+    text-align: center;
+    font-weight: 300;
+}
+
+h5{
+    text-align: right;
+    font-weight: 200;
+}
