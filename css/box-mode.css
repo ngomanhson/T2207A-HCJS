@@ -1,0 +1,61 @@
+div{
+    width: calc(25% - 30px);
+    /*height: 400px;*/
+    float: left;
+
+    border: 1px solid red;
+    /*border-left: */
+    /*border-top: */
+    /*border-right: */
+    /*border-bottom: */
+
+    margin: 10px 15px;
+    /*margin-top: */
+    /*margin-right: */
+    /*margin-bottom: */
+
+    padding: 10px 15px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 2px #A9A9A9;
+    border-radius: 6px;
+    transition: all 300ms;
+}
+#box-2{
+    background-color: lightblue;
+}
+.box-color{
+    background-color: lightpink;
+}
+/*danh sach uu tien*/
+body .dp #pid{
+    color: brown;
+}
+#pid{
+    color: yellow;
+}
+.dp .pc{
+    color: green;
+}
+div .pc{
+    color: magenta;
+}
+.pc{
+    color: red;
+}
+body div p{
+    color: blue;
+}
+div p{
+    color: magenta;
+}
+p{
+    color: black;
+}
+
+div:hover{
+    /*transform: rotate(45deg);*/
+    transform: scale(1.15);
+}
+img{
+    max-width: 100%;
+}

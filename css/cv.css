@@ -1,0 +1,15 @@
+body{
+    width: 718px;
+    height: 545px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+}
+h1{
+    font-size: 38px;
+}
+img{
+    max-width: 20%;
+    padding: 5px 50px;
+    float: right;
+}
