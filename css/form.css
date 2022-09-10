@@ -1,0 +1,12 @@
+input{
+    background-color: deepskyblue;
+}
+input[type=text]{
+    background-color: green;
+}
+input[name=email]{
+    background-color: red;
+}
+input[type=number][name=age]{
+    background-color: yellow;
+}

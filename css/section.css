@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Anton&family=Bebas+Neue&family=Bree+Serif&family=Koulen&family=Merriweather+Sans:wght@600;700&family=Roboto+Slab&family=Staatliches&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.images img{
+    width: 100%;
+}
+.images-three img{
+    width: 21%;
+    float: left;
+    margin: 45px 30px;
+}
+
+

@@ -1,0 +1,43 @@
+
+.phone i {
+    color: #ff0000;
+    font-size: 28px;
+    line-height: 70px;
+    float: right;
+}
+.phone ul{
+    color: #ff0000;
+    list-style: none;
+    margin: 10px 15px;
+    line-height: 22px;
+    float: right;
+}
+.home i{
+    color: #696969;
+    font-size: 28px;
+    line-height: 70px;
+    float: right;
+}
+.home p{
+    color: #696969;
+    float: right;
+    line-height: 35px;
+}
+.cart i{
+    color: #696969;
+    font-size: 28px;
+    line-height: 70px;
+    float: right;
+}
+.cart p{
+    color: #696969;
+    float: right;
+    line-height: 35px;
+}
+
+nav{
+    height: 70px;
+    background: #dcdcdc;
+
+}
+

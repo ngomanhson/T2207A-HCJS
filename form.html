@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout</title>
+  <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+<!--INPUT-->
+      <form method="get" action="#">
+        <label>Full name</label>
+        <input type="text" required name="Full name" placeholder="Enter name..."/>
+        <label>Email</label>
+        <input type="email" required name="Email" placeholder="Enter email..."/>
+        <label>Password</label>
+        <input type="password" required name="Password" placeholder="Enter password..."/>
+        <label>Birthday</label>
+        <input type="date" name="Birthday" placeholder="Enter Birthday..."/>
+
+        <label>Gender</label>
+        <label><input type="radio" value="male" name="gender" />Nam</label>
+        <label><input type="radio" value="female" name="gender" />Nữ</label>
+        <label><input type="radio" value="other" name="gender" />Khác</label>
+
+        <label><input type="checkbox" name="confirm"/>Tôi đã đọc và đồng ý với các điều khoản</label>
+
+        <label>My CV</label>
+        <input type="file" name="cv" placeholder="Gửi">
+
+<!--Select-->
+        <label>City</label>
+        <select name="yourcity">
+          <option value="hanoi">Hà Nội</option>
+          <option value="hochiminh">Hồ Chí Minh</option>
+          <option value="phutho">Phú Thọ</option>
+        </select>
+
+        <label>Tiểu sử bản thân</label>
+        <textarea name="motabanthan" rows="10" cols="100"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+      </form>
+
+</body>
+</html>
