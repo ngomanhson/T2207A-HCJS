@@ -8,9 +8,9 @@
     width: 100%;
 }
 .images-three img{
-    width: 21%;
+    max-width: 21%;
     float: left;
-    margin: 45px 30px;
+    margin: 45px 65px;
 }
 
 

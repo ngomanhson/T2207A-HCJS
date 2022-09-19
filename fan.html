@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ngô Mạnh Sơn</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Sans&family=Libre+Baskerville&family=Roboto&display=swap');
+    body{
+        text-align: center;
+        font-family: 'DM Sans',sans-serif;
+    }
+    /*Cong tac 1*/
+    img{
+        width: 300px;
+    }
+    .button_1{
+        transition-duration: 0.4s;
+    }
+    .button_1:hover{
+        background-color: red;
+        color: white;
+    }
+    /*Cong tac 2*/
+    .button_2{
+        transition-duration: 0.4s;
+    }
+    .button_2:hover{
+        background-color: green;
+        color: white;
+    }
+    /*Cong tac 3*/
+    .button_3{
+        transition-duration: 0.4s;
+    }
+    .button_3:hover{
+        background-color: yellow;
+        color: white;
+    }
+    /*Cong tac 4*/
+    .button_4{
+        transition-duration: 0.4s;
+    }
+    .button_4:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+</style>
+
+<body>
+
+<img id="abc" src="images/propeller.png"><br>
+<button class="button_1" type="button" onclick="off()">OFF</button>
+<button class="button_2" type="button" onclick="quay_1()">1</button>
+<button class="button_3" type="button" onclick="quay_2()">2</button>
+<button class="button_4" type="button" onclick="quay_3()">3</button>
+
+<script type="text/javascript" src="Javascript/fan.js"></script>
+</body>
+</html>
