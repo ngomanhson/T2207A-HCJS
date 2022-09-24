@@ -9,7 +9,7 @@
 " rel="stylesheet">
 </head>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Poppins&family=Roboto&display=swap  ');
+  @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Poppins&family=Roboto&display=swap');
   body{
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(134,192,251,1) 100%);
   font-family: 'Poppins', sans-serif;
@@ -35,8 +35,7 @@
     width: 70px;
     margin: 0 125px;
   }
-  h6{
-    text-align: center;
+  h5{
     margin: 10px;
   }
   h2{
@@ -44,7 +43,7 @@
     margin: 0 20px;
     font-weight: bold;
   }
-  p{
+  h6{
     position: absolute;
     margin: 55px 20px;
   }
@@ -64,9 +63,9 @@ xhttp.onload = function (){
   for (var i=0;i<ls.length;i++){
     var li_html=`<div class="col-3">
             <div class="card" ">
-                <h6 class="text-tt">${ls[i].dt_txt}</h6>
-                <h2>${ls[i].main.temp}<sup>o</sup>C</h4>
-                <p>${ls[i].weather[0].description}</p>
+                <h5 class="text-tt">${ls[i].dt_txt}</h5>
+                <h2>${ls[i].main.temp}<sup>o</sup>C</h2>
+                <h6>${ls[i].weather[0].description}</h6>
                 <img src="http://openweathermap.org/img/wn/${ls[i].weather[0].icon}@2x.png"/
 >
             </div>`;
